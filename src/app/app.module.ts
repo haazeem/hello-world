@@ -9,6 +9,9 @@ import { InscriptionComponent } from './inscription/inscription.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { TodoRifComponent } from './todo-rif/todo-rif.component';
+import { TodoAjoutComponent } from './todo-ajout/todo-ajout.component';
+import { TodoModifComponent } from './todo-modif/todo-modif.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { FooterComponent } from './footer/footer.component';
     InscriptionComponent,
     HomeComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    TodoRifComponent,
+    TodoAjoutComponent,
+    TodoModifComponent
   ],
   imports: [
     BrowserModule,
